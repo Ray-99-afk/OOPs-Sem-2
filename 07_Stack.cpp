@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class stack
-{
+class stack{
 private:
     int st[3];
     int top;
@@ -27,7 +26,6 @@ public:
 int main()
 {
     stack s1;
-
     s1.push(11);
     s1.push(22);
     s1.push(33);

@@ -32,7 +32,7 @@ int main() {
     Distance d1;         
     Distance d2(10, 6.5);
     
-    // d1.show(); 
+    d1.show(); 
     d2.show(); 
 
     return 0;
