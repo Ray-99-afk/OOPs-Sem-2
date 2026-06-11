@@ -8,7 +8,7 @@
 // using namespace std;
 
 // int main() {
-//     std::ofstream file("data.bin", std::ios::out | std::ios::binary);
+//     ofstream file("data.bin", std::ios::out | std::ios::binary);
 //     if (!file) {
 //         std::cerr << "Error opening file!" << std::endl;
 //         return 1;
@@ -20,19 +20,19 @@
 // }
 
 
-#include <iostream>
-#include <fstream>
-using namespace std;
+// #include <iostream>
+// #include <fstream>
+// using namespace std;
 
-int main()
-{
-    ofstream file ("Data.bin", ios::binary);
-int num[5];
-file.read((char*)&num, sizeof(num));
-for(int i =0; i<5; i++)
-cout<< *(num+i)<<endl;
-return 0;
-}
+// int main()
+// {
+//     ofstream file ("Data.bin", ios::binary);
+// int num[5];
+// file.read((char*)&num, sizeof(num));
+// for(int i =0; i<5; i++)
+// cout<< *(num+i)<<endl;
+// return 0;
+// }
 
 
 // #include <iostream>
